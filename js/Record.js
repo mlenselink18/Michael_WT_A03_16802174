@@ -103,5 +103,6 @@ $(document).ready( () => {
             $("#discountedPrice").val(us.format(record.calculate()));
         }
         return;
+        evt.preventDefault();
     });
 });
